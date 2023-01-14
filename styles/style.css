@@ -1,7 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
-*{ 
-   font-family: 'Work Sans', sans-serif;
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@700&display=swap');
+
+*{
+font-family: 'Work Sans', sans-serif;
 } */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -45,6 +47,27 @@ margin-bottom: 20px;
     color: white;
     background-color: orange;
 }
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid-section{
+    display: flex;
+    padding:0 140px 0 140px;
+    margin-top: 60px;
+    gap: 50px;
+}
+.grid-items{
+    margin-top: 200px;
+}
+.grid-title{
+    font-size: 30px;
+}
+#features{
+    color: orange;
+}
+
 
 /* Make website Responsive for mobile device */
 
@@ -73,5 +96,20 @@ margin-bottom: 20px;
     }
     .img{
         margin-top: 20px;
+    }
+
+    .grid-section{
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px 0 15px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .grid-items{
+        margin-top: -30px;
+        text-align: center;
     }
 }
