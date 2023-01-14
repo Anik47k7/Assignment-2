@@ -67,7 +67,11 @@ margin-bottom: 20px;
 #features{
     color: orange;
 }
-
+.architect{
+    display: flex;
+    padding: 0 140px 0 140px;
+    gap: 50px;
+}
 
 /* Make website Responsive for mobile device */
 
