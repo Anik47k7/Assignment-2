@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -72,9 +72,11 @@ nav{
 }
 .grid-title{
     font-size: 30px;
+    font-weight: 400;
 }
 #inline{
     color: #ff900e;
+    font-weight: 700;
 }
 .grid-description{
     margin: 20px 0 20px 0;
@@ -198,7 +200,7 @@ nav{
                                 /* footer section */
 
 .footer{
-    margin: 80px 140px 200px 140px;
+    margin: 80px 140px 140px 140px;
     text-align: center; 
     background-color: lightgoldenrodyellow;
     height: 40px;
@@ -311,7 +313,7 @@ nav{
         text-align: center;
     }
     .footer{
-        margin: 80px 15px 200px 15px;
+        margin: 80px 15px 140px 15px;
         height: 40px;
         text-align: center;
         padding-top: 25px;
