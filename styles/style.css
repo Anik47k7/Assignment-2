@@ -80,6 +80,24 @@ nav{
     margin: 20px 0 20px 0;
 }
 
+                   /* Demo-section */
+
+
+    .gridme-section{
+    display: flex;
+    padding:0 140px 0 140px;
+    margin: 60px 0 60px 0;
+    gap: 50px;
+    }
+.gridme{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.gridme img{
+    border-radius: 3%;
+}
+
                                      /* architect section */
 
 .architect{
@@ -135,7 +153,7 @@ nav{
     font-weight: 700;
 }
 .fact-description{
-   margin-top: 20px;
+   margin: 20px 600px 0 0;
 }
 .icons{
     display: flex;
@@ -148,7 +166,14 @@ nav{
     width: 150px;
     border:1px #ff900e solid;
     border-radius: 8px;
-    padding-top: 20px;
+    padding: 30px 15px 0 15px;
+    transition: width 1s , height 1s, transform 1s;
+}
+.icon-item:hover{
+    background-color: #ff900e;
+    height: 140px ;
+    width: 140px;
+    transform:rotate(45deg) ;
 }
 
                                  /* sponspor-section */
@@ -222,6 +247,17 @@ nav{
         grid-template-columns: repeat(1, 1fr);
         
     }
+    .gridme-section{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 15px 0 15px;
+        align-items: center;
+    }
+    .gridme{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
     .grid-items{
         margin-top: -30px;
         text-align: center;
@@ -248,6 +284,9 @@ nav{
     .facts{
         margin: 0px 15px 0px 15px;
     }
+    .fact-description{
+        margin: 20px 40px 0 0;
+     }
     .icons{
         display: flex;
         justify-content: space-around;
